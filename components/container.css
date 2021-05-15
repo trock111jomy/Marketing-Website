@@ -1,3 +1,7 @@
+*{
+    font-family: Segoe UI, Arial, sans-serif;
+    font-style:normal;
+}
 .navigation-bar{
     background-color: black;
     /* height:40px; */
@@ -26,8 +30,6 @@
     width:90px;
     /* height: 40px; */
     color:white;
-    font-family: Verdana, sans-serif;
-    font-style:normal;
     font-weight:400;
     font-size:15px;
     line-height:23px;
@@ -43,8 +45,6 @@
     /* width:70px; */
     /* height: 40px; */
     color:white;
-    font-family: Verdana, sans-serif;
-    font-style:normal;
     font-weight:400;
     font-size:15px;
     line-height:23px;
@@ -67,8 +67,6 @@
     background-color: black;
     padding:10px;
     margin: 0 0 16px 16px;
-    font-family: Verdana, sans-serif;
-    font-style:normal;
     font-weight:400;
     font-size:24px;
     line-height:36px;
@@ -109,4 +107,11 @@
     width:24%;
     background-color: white;
     /* padding:16px; */
+}
+.plan{
+    width:30%;
+    background-color: #F0F0F0;
+}
+.plan:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
