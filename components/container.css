@@ -1,0 +1,112 @@
+.navigation-bar{
+    background-color: black;
+    /* height:40px; */
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    padding-right: 14px;
+    /* position:fixed; */
+}
+.navbar-left{
+    display:flex;
+    align-items: center;    
+}
+.navbar-right{
+    display:flex;
+    align-items: center;
+    color:white;    
+}
+.logo-button{
+    text-align:center;
+    padding:8px 2px;
+    background-color: rgb(0,150,136);
+    width:90px;
+    /* height: 40px; */
+    color:white;
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:15px;
+    line-height:23px;
+}
+.logo-button:hover{
+    color:black;
+    background-color:lightgrey;
+}
+.nav-button{
+    text-align:center;
+    padding:8px 14px;
+    background-color: black;
+    /* width:70px; */
+    /* height: 40px; */
+    color:white;
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:15px;
+    line-height:23px;
+}
+.nav-button:hover{
+    background-color: white;
+    color:black;
+}
+.front-banner{
+    display: flex;
+    align-items:flex-end;
+    width:102%;
+    margin:0 -8px 0 -8px; 
+    height: 100%;
+    background-size: cover;
+    background-repeat:none;
+    background-position: center;
+}
+.front-banner-bottomleft{
+    background-color: black;
+    padding:10px;
+    margin: 0 0 16px 16px;
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:24px;
+    line-height:36px;
+    color:white;
+}
+.front-banner-bottomleft:hover{
+    background-color: lightseagreen;
+}
+.our-team{
+    background-color: white;
+}
+.personal-profile{
+    width:20%;
+    /* background-color:rgb(95, 131, 129); */
+    text-align:center;
+}
+.personal-profile img{
+    border-radius: 50%;
+    width:60%;
+}
+.images-group{
+    display:flex;
+    justify-content: space-around;
+    margin:36px 0;
+}
+.works-description{
+    margin:0 -7px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(51,51,51);
+    padding:40px 10px;
+    width:100%;
+}
+.our-work{
+   width:24%;
+}
+.customer-review{
+    width:24%;
+    background-color: white;
+    /* padding:16px; */
+}
